@@ -50,11 +50,14 @@ html{
     top: 0;
     background-color: #fafafa;
     width: 100%;
+    overflow: hidden;
+    max-height: 200px;
     z-index: 10; /* Ensure the banner stays above other content */
 }
 
 .banner img {
     width: 100%;
+    height: auto;
     display: block;
 }
 

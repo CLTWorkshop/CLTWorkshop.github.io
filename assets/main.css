@@ -35,7 +35,7 @@ body{
     font-size:1em;
     line-height:1.5em;
     margin: 0;
-    padding-top: 60px; /* Add padding to prevent overlap with sticky banner */
+    /*padding-top: 60px;  Add padding to prevent overlap with sticky banner. Removed as doesn't seem to be needed anymore  */ 
     width: 100%;
     height: 100%;
 }

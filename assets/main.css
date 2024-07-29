@@ -60,16 +60,16 @@ html{
     display: block;
 }
 
-.footer {
+footer {
     text-align: center;
-    padding: 20px 0;
     background-color: #fafafa;
     overflow: hidden;
 }
 
-.footer img {
+footer-image {
     width: 100%;
     height: auto;
+    display: block
 }
 
 .content {

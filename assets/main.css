@@ -129,13 +129,13 @@ th,td{
 table.navigation{width:800px;}
 
 .navigation {
-  position: fixed;
   margin-top: 20px;
   left: 50%;
   transform: translateX(-50%);
   background-color: #fafafa;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   z-index: 1000;
+  transition: top 0.3s;
 }
 
 td.navigation {
@@ -144,6 +144,17 @@ td.navigation {
   text-align:center;
   vertical-align:middle;
   padding:0px 0px 0px 0px;
+}
+
+/* nav_script.js*/
+.sticky {
+    position: fixed; /* Fixed position when scrolling past */
+    top: 0; /* Aligns it to the top */
+    left: 50%; /* Center it horizontally */
+    transform: translateX(-50%); /* Center it correctly */
+    width: 800px; /* Maintain width */
+    margin: 0; /* Remove margin to stick to the top */
+    z-index: 1000; /* Ensure it stays above other content */
 }
 
 /* Sponsor Images */

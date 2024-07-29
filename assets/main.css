@@ -68,6 +68,7 @@ footer {
 
 footer-image {
     height: auto;
+    width: 100%;
     display: block
 }
 

@@ -104,7 +104,7 @@ sub{
 table{
     width: 1000px;
     margin: 12px auto 24px auto;
-    float: center;
+    float: left;
     /* UNCOMMENT THIS FOR DEBUGGING THE ALIGNMENT */
     /*border: 1px solid black;*/
 }
@@ -134,7 +134,6 @@ table.navigation{
 .navigation {
   width: 100%;
   background-color: #fafafa;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   z-index: 1000;
   transition: top 0.3s;
 }

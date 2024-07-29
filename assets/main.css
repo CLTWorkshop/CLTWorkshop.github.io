@@ -60,6 +60,17 @@ html{
     display: block;
 }
 
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #fafafa;
+}
+
+.footer-image {
+    max-width: 100%;
+    height: auto;
+}
+
 .content {
     padding: 20px;
 }

@@ -151,9 +151,7 @@ td.navigation {
 .sticky {
     position: fixed; /* Fixed position when scrolling past */
     top: 0; /* Aligns it to the top */
-    left: 50%; /* Center it horizontally */
-    transform: translateX(-50%);/* Center it correctly */
-    width: 800px; /* Maintain width */
+    width: 100%; /* Maintain width */
     margin: 0; /* Remove margin to stick to the top */
     z-index: 1000; /* Ensure it stays above other content */
 }

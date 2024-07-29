@@ -130,7 +130,9 @@ th,td{
 /* Navigation Links (Home, Registration, etc) */
 table.navigation{
   width:100%;
-  border-collapse: collapse;
+  /*border-collapse: collapse;*/
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
 .navigation {

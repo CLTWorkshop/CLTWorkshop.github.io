@@ -73,8 +73,8 @@ a:active{color: #e82945;}
 h1,h2,h3,h4{clear:left; color: #51b897; margin:1.5em 0em 1em 0em; font-family:'Roboto Slab',serif; text-shadow: 1px 1px 2px #d0d0d0;}
 h1{font-size:2.67em;}
 h2{font-size:2.00em; padding:20px;}
-h3{font-size:1.67em;}
-h4{font-size:1.33em;}
+h3{font-size:1.67em; padding:20px;}
+h4{font-size:1.33em; padding:20px;}
 p{list-style:none; margin:24px auto 24px auto; padding:0px; width:900px; text-align:left;}
 li a, p a {text-decoration:underline; text-decoration-color:#b8860b;}
 ul{list-style:none; margin:24px auto 24px auto; padding:0px; width:800px; text-align:left;}

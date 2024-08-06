@@ -109,7 +109,7 @@ ul li {
     margin: 0px auto;
     padding: 0px;
     text-align: left;
-    color: black; /* Ensure list item text color is black */
+    color: #505050; 
 }
 
 i,em{font-style:italic;}
